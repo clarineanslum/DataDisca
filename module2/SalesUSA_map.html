@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d31dd20451b4542bbab42fe53b10f27 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2d31dd20451b4542bbab42fe53b10f27" ></div>
+        
+</body>
+<script>    
+    
+            var map_2d31dd20451b4542bbab42fe53b10f27 = L.map(
+                "map_2d31dd20451b4542bbab42fe53b10f27",
+                {
+                    center: [43.299428, -87.217933],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b097fc5237541fda36ea08c8534df76 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var marker_c15b1673e6524d36a3cab69b1a6f7380 = L.marker(
+                [42.6525793, -73.7562317],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_9e92423106c84088b787163af67274da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c15b1673e6524d36a3cab69b1a6f7380.setIcon(icon_9e92423106c84088b787163af67274da);
+        
+    
+        var popup_5227c60b16154ac581b6730f56cddfa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40217ad6218c41bfb0447c6e801b1ff4 = $(`<div id="html_40217ad6218c41bfb0447c6e801b1ff4" style="width: 100.0%; height: 100.0%;">['location :Albany<br>Avg_Total:47537.87<br>Avg_Plu1:1824.08<br>Avg_Plu2:37621.21<br>Avg_Plu3:162.83<br>Avg_bags_t:7929.75<br>Avg_bags_s:6647.77<br>Avg_bags_t:1153.5<br>Avg_bags_lx:128.49']</div>`)[0];
+            popup_5227c60b16154ac581b6730f56cddfa8.setContent(html_40217ad6218c41bfb0447c6e801b1ff4);
+        
+
+        marker_c15b1673e6524d36a3cab69b1a6f7380.bindPopup(popup_5227c60b16154ac581b6730f56cddfa8)
+        ;
+
+        
+    
+    
+            marker_c15b1673e6524d36a3cab69b1a6f7380.bindTooltip(
+                `<div>
+                     Bags_T<br>A=2366259.23<br>C=313995.38<br>Total=2680254.61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2225d912c4c54737b1b0e87c1ace85cb = L.marker(
+                [33.7489954, -84.3879824],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_66a5498fb4cc42ddbc6a1ddf4f21659c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2225d912c4c54737b1b0e87c1ace85cb.setIcon(icon_66a5498fb4cc42ddbc6a1ddf4f21659c);
+        
+    
+        var popup_254c288daa4f433cb766faf92484befb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dacf0881ddf3421ea8f05950f7cc1272 = $(`<div id="html_dacf0881ddf3421ea8f05950f7cc1272" style="width: 100.0%; height: 100.0%;">['location :Atlanta<br>Avg_Total:262145.32<br>Avg_Plu1:146116.87<br>Avg_Plu2:31218.51<br>Avg_Plu3:311.39<br>Avg_bags_t:84498.56<br>Avg_bags_s:51605.73<br>Avg_bags_t:32070.04<br>Avg_bags_lx:822.79']</div>`)[0];
+            popup_254c288daa4f433cb766faf92484befb.setContent(html_dacf0881ddf3421ea8f05950f7cc1272);
+        
+
+        marker_2225d912c4c54737b1b0e87c1ace85cb.bindPopup(popup_254c288daa4f433cb766faf92484befb)
+        ;
+
+        
+    
+    
+            marker_2225d912c4c54737b1b0e87c1ace85cb.bindTooltip(
+                `<div>
+                     Bags_T<br>A=27597105.14<br>C=963408.44<br>Total=28560513.580000002
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c3a5e21392047009e9a5461877c1e3a = L.marker(
+                [39.1774042, -76.6683922],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_19723b7928264a068e14b95e045f7061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_9c3a5e21392047009e9a5461877c1e3a.setIcon(icon_19723b7928264a068e14b95e045f7061);
+        
+    
+        var popup_6ff473da7d994578a8a2beafc458b0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8951ee7195c64b8295eac5214c4ef320 = $(`<div id="html_8951ee7195c64b8295eac5214c4ef320" style="width: 100.0%; height: 100.0%;">['location :BaltimoreWashington<br>Avg_Total:398561.89<br>Avg_Plu1:35656.22<br>Avg_Plu2:245982.89<br>Avg_Plu3:12466.73<br>Avg_bags_t:104456.05<br>Avg_bags_s:100939.68<br>Avg_bags_t:2903.98<br>Avg_bags_lx:612.38']</div>`)[0];
+            popup_6ff473da7d994578a8a2beafc458b0b7.setContent(html_8951ee7195c64b8295eac5214c4ef320);
+        
+
+        marker_9c3a5e21392047009e9a5461877c1e3a.bindPopup(popup_6ff473da7d994578a8a2beafc458b0b7)
+        ;
+
+        
+    
+    
+            marker_9c3a5e21392047009e9a5461877c1e3a.bindTooltip(
+                `<div>
+                     Bags_T<br>A=33059022.94<br>C=2247123.13<br>Total=35306146.07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86a8bc9b85e8465ca1cf7ce963048557 = L.marker(
+                [43.6150186, -116.2023137],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_0a9f5ec24d4641eea115cbc334a52583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_86a8bc9b85e8465ca1cf7ce963048557.setIcon(icon_0a9f5ec24d4641eea115cbc334a52583);
+        
+    
+        var popup_ee248935c8fd4e1b9f007131b9df9450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32145f7ad32a468098678fc35ce54389 = $(`<div id="html_32145f7ad32a468098678fc35ce54389" style="width: 100.0%; height: 100.0%;">['location :Boise<br>Avg_Total:42642.57<br>Avg_Plu1:20019.51<br>Avg_Plu2:3461.68<br>Avg_Plu3:3186.79<br>Avg_bags_t:15974.59<br>Avg_bags_s:13840.04<br>Avg_bags_t:2103.63<br>Avg_bags_lx:30.92']</div>`)[0];
+            popup_ee248935c8fd4e1b9f007131b9df9450.setContent(html_32145f7ad32a468098678fc35ce54389);
+        
+
+        marker_86a8bc9b85e8465ca1cf7ce963048557.bindPopup(popup_ee248935c8fd4e1b9f007131b9df9450)
+        ;
+
+        
+    
+    
+            marker_86a8bc9b85e8465ca1cf7ce963048557.bindTooltip(
+                `<div>
+                     Bags_T<br>A=5151786.85<br>C=247625.4<br>Total=5399412.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89fc14837d244711b1a627345eea920a = L.marker(
+                [42.3600825, -71.0588801],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_219333c1de6249a9a51cd73174baa788 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_89fc14837d244711b1a627345eea920a.setIcon(icon_219333c1de6249a9a51cd73174baa788);
+        
+    
+        var popup_5ad7edfa30634555a26678e9d9fb058b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6f367c872c843eb86ee4d0529f37495 = $(`<div id="html_d6f367c872c843eb86ee4d0529f37495" style="width: 100.0%; height: 100.0%;">['location :Boston<br>Avg_Total:287792.85<br>Avg_Plu1:4994.61<br>Avg_Plu2:214219.86<br>Avg_Plu3:4982.29<br>Avg_bags_t:63596.09<br>Avg_bags_s:58906.59<br>Avg_bags_t:4438.36<br>Avg_bags_lx:251.12']</div>`)[0];
+            popup_5ad7edfa30634555a26678e9d9fb058b.setContent(html_d6f367c872c843eb86ee4d0529f37495);
+        
+
+        marker_89fc14837d244711b1a627345eea920a.bindPopup(popup_5ad7edfa30634555a26678e9d9fb058b)
+        ;
+
+        
+    
+    
+            marker_89fc14837d244711b1a627345eea920a.bindTooltip(
+                `<div>
+                     Bags_T<br>A=19320345.33<br>C=2175131.47<br>Total=21495476.799999997
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40d1feaf52944b5194f08eb435461507 = L.marker(
+                [43.2057878, -77.6670903],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_653f496d650941fca94ba3c1512dca62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_40d1feaf52944b5194f08eb435461507.setIcon(icon_653f496d650941fca94ba3c1512dca62);
+        
+    
+        var popup_0b1e252534cb4aac96210f68d413f07d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e402230e671d4c4fa7442a27712675f2 = $(`<div id="html_e402230e671d4c4fa7442a27712675f2" style="width: 100.0%; height: 100.0%;">['location :BuffaloRochester<br>Avg_Total:67936.3<br>Avg_Plu1:1776.67<br>Avg_Plu2:31663.95<br>Avg_Plu3:144.34<br>Avg_bags_t:34351.34<br>Avg_bags_s:30379.98<br>Avg_bags_t:3729.05<br>Avg_bags_lx:242.31']</div>`)[0];
+            popup_0b1e252534cb4aac96210f68d413f07d.setContent(html_e402230e671d4c4fa7442a27712675f2);
+        
+
+        marker_40d1feaf52944b5194f08eb435461507.bindPopup(popup_0b1e252534cb4aac96210f68d413f07d)
+        ;
+
+        
+    
+    
+            marker_40d1feaf52944b5194f08eb435461507.bindTooltip(
+                `<div>
+                     Bags_T<br>A=10742315.16<br>C=868436.47<br>Total=11610751.63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73ed3be5b0274052a041975d0031f730 = L.marker(
+                [36.778261, -119.4179324],
+                {"iconColor": "orange"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_63207199635742009448236ce33f92b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_73ed3be5b0274052a041975d0031f730.setIcon(icon_63207199635742009448236ce33f92b1);
+        
+    
+        var popup_71e4967a6e33432a8a4a0cfd2bdd3d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66cc2df4bdca4b71af6d90b43de00726 = $(`<div id="html_66cc2df4bdca4b71af6d90b43de00726" style="width: 100.0%; height: 100.0%;">['location :California<br>Avg_Total:3044324.42<br>Avg_Plu1:1180375.78<br>Avg_Plu2:1039915.39<br>Avg_Plu3:94204.28<br>Avg_bags_t:729828.98<br>Avg_bags_s:677803.79<br>Avg_bags_t:36425.85<br>Avg_bags_lx:15599.34']</div>`)[0];
+            popup_71e4967a6e33432a8a4a0cfd2bdd3d65.setContent(html_66cc2df4bdca4b71af6d90b43de00726);
+        
+
+        marker_73ed3be5b0274052a041975d0031f730.bindPopup(popup_71e4967a6e33432a8a4a0cfd2bdd3d65)
+        ;
+
+        
+    
+    
+            marker_73ed3be5b0274052a041975d0031f730.bindTooltip(
+                `<div>
+                     Bags_T<br>A=237841546.7<br>C=8840647.01<br>Total=246682193.70999998
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fd2c7f0768b4107ae891f689ceed83d = L.marker(
+                [35.2270869, -80.8431267],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_3ad27fc1458a4bb2933cf2f91349a0e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1fd2c7f0768b4107ae891f689ceed83d.setIcon(icon_3ad27fc1458a4bb2933cf2f91349a0e9);
+        
+    
+        var popup_28159307145a4005b786c289a20f528a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b75700fcfa84418e938c910a9ac02430 = $(`<div id="html_b75700fcfa84418e938c910a9ac02430" style="width: 100.0%; height: 100.0%;">['location :Charlotte<br>Avg_Total:105193.92<br>Avg_Plu1:22378.14<br>Avg_Plu2:36628.02<br>Avg_Plu3:11578.47<br>Avg_bags_t:34609.3<br>Avg_bags_s:31490.69<br>Avg_bags_t:2912.68<br>Avg_bags_lx:205.93']</div>`)[0];
+            popup_28159307145a4005b786c289a20f528a.setContent(html_b75700fcfa84418e938c910a9ac02430);
+        
+
+        marker_1fd2c7f0768b4107ae891f689ceed83d.bindPopup(popup_28159307145a4005b786c289a20f528a)
+        ;
+
+        
+    
+    
+            marker_1fd2c7f0768b4107ae891f689ceed83d.bindTooltip(
+                `<div>
+                     Bags_T<br>A=11208959.73<br>C=488982.68<br>Total=11697942.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_682622b41a734b61883a1d3349c9f210 = L.marker(
+                [41.8781136, -87.6297982],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_988023ccd8ce4a60a5da2e3ddc3f1587 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_682622b41a734b61883a1d3349c9f210.setIcon(icon_988023ccd8ce4a60a5da2e3ddc3f1587);
+        
+    
+        var popup_580361fc85b6477c8fe5f9acd1396594 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512b345cdde045bcbca7e0302cfecae4 = $(`<div id="html_512b345cdde045bcbca7e0302cfecae4" style="width: 100.0%; height: 100.0%;">['location :Chicago<br>Avg_Total:395569.05<br>Avg_Plu1:32083.08<br>Avg_Plu2:254519.04<br>Avg_Plu3:59069.2<br>Avg_bags_t:49897.63<br>Avg_bags_s:43771.16<br>Avg_bags_t:5005.55<br>Avg_bags_lx:1120.93']</div>`)[0];
+            popup_580361fc85b6477c8fe5f9acd1396594.setContent(html_512b345cdde045bcbca7e0302cfecae4);
+        
+
+        marker_682622b41a734b61883a1d3349c9f210.bindPopup(popup_580361fc85b6477c8fe5f9acd1396594)
+        ;
+
+        
+    
+    
+            marker_682622b41a734b61883a1d3349c9f210.bindTooltip(
+                `<div>
+                     Bags_T<br>A=16292796.48<br>C=572604.14<br>Total=16865400.62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7466851ab7454455905ed58668a8e88b = L.marker(
+                [39.54204319999999, -84.2874215],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_7cde0d565ada41caa40b9c61c539e513 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7466851ab7454455905ed58668a8e88b.setIcon(icon_7cde0d565ada41caa40b9c61c539e513);
+        
+    
+        var popup_9038807c7d964a72b798245e10487c8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_813d8be645b1444ea92acd5d1326e048 = $(`<div id="html_813d8be645b1444ea92acd5d1326e048" style="width: 100.0%; height: 100.0%;">['location :CincinnatiDayton<br>Avg_Total:131721.92<br>Avg_Plu1:5411.7<br>Avg_Plu2:61058.9<br>Avg_Plu3:3421.03<br>Avg_bags_t:61828.16<br>Avg_bags_s:16751.17<br>Avg_bags_t:44296.43<br>Avg_bags_lx:780.56']</div>`)[0];
+            popup_9038807c7d964a72b798245e10487c8c.setContent(html_813d8be645b1444ea92acd5d1326e048);
+        
+
+        marker_7466851ab7454455905ed58668a8e88b.bindPopup(popup_9038807c7d964a72b798245e10487c8c)
+        ;
+
+        
+    
+    
+            marker_7466851ab7454455905ed58668a8e88b.bindTooltip(
+                `<div>
+                     Bags_T<br>A=19629837.39<br>C=1268081.05<br>Total=20897918.44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c4b8766f6114331a16554861e8b8270 = L.marker(
+                [39.9611755, -82.99879419999999],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_9c31d2d8b3944c6d99247e4f93dc0171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7c4b8766f6114331a16554861e8b8270.setIcon(icon_9c31d2d8b3944c6d99247e4f93dc0171);
+        
+    
+        var popup_fe4cd28718f84839aa8a67b81cc29a23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8367b8b566cf48cbb49b864211460c90 = $(`<div id="html_8367b8b566cf48cbb49b864211460c90" style="width: 100.0%; height: 100.0%;">['location :Columbus<br>Avg_Total:88737.76<br>Avg_Plu1:37237.06<br>Avg_Plu2:16910.3<br>Avg_Plu3:4955.85<br>Avg_bags_t:29634.28<br>Avg_bags_s:23878.08<br>Avg_bags_t:5103.2<br>Avg_bags_lx:653.0']</div>`)[0];
+            popup_fe4cd28718f84839aa8a67b81cc29a23.setContent(html_8367b8b566cf48cbb49b864211460c90);
+        
+
+        marker_7c4b8766f6114331a16554861e8b8270.bindPopup(popup_fe4cd28718f84839aa8a67b81cc29a23)
+        ;
+
+        
+    
+    
+            marker_7c4b8766f6114331a16554861e8b8270.bindTooltip(
+                `<div>
+                     Bags_T<br>A=9239783.68<br>C=776603.55<br>Total=10016387.23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b9dc09ecd4e461b8b59b3bac0bf0bc5 = L.marker(
+                [32.8998091, -97.0403352],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_cfd75f7b7d7f482e99a01675a929922f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6b9dc09ecd4e461b8b59b3bac0bf0bc5.setIcon(icon_cfd75f7b7d7f482e99a01675a929922f);
+        
+    
+        var popup_2a282fdcf4e44255b2d8a46c03a453b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7bec98fde834965bdc663c0fab8eee0 = $(`<div id="html_d7bec98fde834965bdc663c0fab8eee0" style="width: 100.0%; height: 100.0%;">['location :DallasFtWorth<br>Avg_Total:616625.11<br>Avg_Plu1:327090.14<br>Avg_Plu2:139557.68<br>Avg_Plu3:12492.82<br>Avg_bags_t:137484.47<br>Avg_bags_s:120774.37<br>Avg_bags_t:15431.13<br>Avg_bags_lx:1278.97']</div>`)[0];
+            popup_2a282fdcf4e44255b2d8a46c03a453b4.setContent(html_d7bec98fde834965bdc663c0fab8eee0);
+        
+
+        marker_6b9dc09ecd4e461b8b59b3bac0bf0bc5.bindPopup(popup_2a282fdcf4e44255b2d8a46c03a453b4)
+        ;
+
+        
+    
+    
+            marker_6b9dc09ecd4e461b8b59b3bac0bf0bc5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=44381954.65<br>C=2087797.9<br>Total=46469752.55
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3215c74ef13849daac7bbfa05df5d090 = L.marker(
+                [39.7392358, -104.990251],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_2643ca99dc9a47eea1d17458dd71ab35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3215c74ef13849daac7bbfa05df5d090.setIcon(icon_2643ca99dc9a47eea1d17458dd71ab35);
+        
+    
+        var popup_731fac0ab4ed495eaa851ea2c4f6b0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0810d3502524e47abcb52a22c2e52f5 = $(`<div id="html_b0810d3502524e47abcb52a22c2e52f5" style="width: 100.0%; height: 100.0%;">['location :Denver<br>Avg_Total:410954.25<br>Avg_Plu1:78191.87<br>Avg_Plu2:150326.97<br>Avg_Plu3:8006.41<br>Avg_bags_t:174429.01<br>Avg_bags_s:55513.62<br>Avg_bags_t:118760.12<br>Avg_bags_lx:155.27']</div>`)[0];
+            popup_731fac0ab4ed495eaa851ea2c4f6b0e8.setContent(html_b0810d3502524e47abcb52a22c2e52f5);
+        
+
+        marker_3215c74ef13849daac7bbfa05df5d090.bindPopup(popup_731fac0ab4ed495eaa851ea2c4f6b0e8)
+        ;
+
+        
+    
+    
+            marker_3215c74ef13849daac7bbfa05df5d090.bindTooltip(
+                `<div>
+                     Bags_T<br>A=55627596.01<br>C=3329410.99<br>Total=58957007.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f92841f4fbc48ba97e67f79a2ad76d2 = L.marker(
+                [42.331427, -83.0457538],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_14ef21ae72f84de3942bfa9f6be9d3af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8f92841f4fbc48ba97e67f79a2ad76d2.setIcon(icon_14ef21ae72f84de3942bfa9f6be9d3af);
+        
+    
+        var popup_f44771ebc35d4f8c9aff38b9f931a500 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5de0c5d633d43529e11ca91dd0b2243 = $(`<div id="html_d5de0c5d633d43529e11ca91dd0b2243" style="width: 100.0%; height: 100.0%;">['location :Detroit<br>Avg_Total:187640.29<br>Avg_Plu1:55571.45<br>Avg_Plu2:34799.35<br>Avg_Plu3:25487.58<br>Avg_bags_t:71775.34<br>Avg_bags_s:58991.34<br>Avg_bags_t:7905.23<br>Avg_bags_lx:4878.77']</div>`)[0];
+            popup_f44771ebc35d4f8c9aff38b9f931a500.setContent(html_d5de0c5d633d43529e11ca91dd0b2243);
+        
+
+        marker_8f92841f4fbc48ba97e67f79a2ad76d2.bindPopup(popup_f44771ebc35d4f8c9aff38b9f931a500)
+        ;
+
+        
+    
+    
+            marker_8f92841f4fbc48ba97e67f79a2ad76d2.bindTooltip(
+                `<div>
+                     Bags_T<br>A=22704270.72<br>C=1555794.63<br>Total=24260065.349999998
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59a9309173b9469ab8a3341811e8408d = L.marker(
+                [42.9633599, -85.6680863],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_affce75b8aa647499bdd321f380f8d18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_59a9309173b9469ab8a3341811e8408d.setIcon(icon_affce75b8aa647499bdd321f380f8d18);
+        
+    
+        var popup_55302164ad1c4a99af0de9edf516933c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ed1d6319be047709dff91516b8468de = $(`<div id="html_7ed1d6319be047709dff91516b8468de" style="width: 100.0%; height: 100.0%;">['location :GrandRapids<br>Avg_Total:89383.83<br>Avg_Plu1:1459.37<br>Avg_Plu2:51010.43<br>Avg_Plu3:9786.5<br>Avg_bags_t:27127.5<br>Avg_bags_s:22288.39<br>Avg_bags_t:2357.4<br>Avg_bags_lx:2481.7']</div>`)[0];
+            popup_55302164ad1c4a99af0de9edf516933c.setContent(html_7ed1d6319be047709dff91516b8468de);
+        
+
+        marker_59a9309173b9469ab8a3341811e8408d.bindPopup(popup_55302164ad1c4a99af0de9edf516933c)
+        ;
+
+        
+    
+    
+            marker_59a9309173b9469ab8a3341811e8408d.bindTooltip(
+                `<div>
+                     Bags_T<br>A=8844158.88<br>C=324935.07<br>Total=9169093.950000001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7be095172ff49e897b65dbba6fea180 = L.marker(
+                [45.0522366, -82.4846115],
+                {"iconColor": "red"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_ad437f6ffc3342379f1b459d20771367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7be095172ff49e897b65dbba6fea180.setIcon(icon_ad437f6ffc3342379f1b459d20771367);
+        
+    
+        var popup_6af7e93931b94f36ad9c164f7fcb4885 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82194514499d4338893cb0f7f097dcd5 = $(`<div id="html_82194514499d4338893cb0f7f097dcd5" style="width: 100.0%; height: 100.0%;">['location :GreatLakes<br>Avg_Total:1744504.58<br>Avg_Plu1:277269.27<br>Avg_Plu2:790703.32<br>Avg_Plu3:148153.76<br>Avg_bags_t:528330.32<br>Avg_bags_s:364755.87<br>Avg_bags_t:144661.66<br>Avg_bags_lx:18912.79']</div>`)[0];
+            popup_6af7e93931b94f36ad9c164f7fcb4885.setContent(html_82194514499d4338893cb0f7f097dcd5);
+        
+
+        marker_e7be095172ff49e897b65dbba6fea180.bindPopup(popup_6af7e93931b94f36ad9c164f7fcb4885)
+        ;
+
+        
+    
+    
+            marker_e7be095172ff49e897b65dbba6fea180.bindTooltip(
+                `<div>
+                     Bags_T<br>A=168063331.33<br>C=10512317.45<br>Total=178575648.78
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8ee380156b84f4b99e7a168e7c85619 = L.marker(
+                [40.2731911, -76.8867008],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_8a13996410db40a0b8239f87a9ceebeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c8ee380156b84f4b99e7a168e7c85619.setIcon(icon_8a13996410db40a0b8239f87a9ceebeb);
+        
+    
+        var popup_468603e4081c4dce8080868d332dc949 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a3a6ae3b44e4fb3b9ec7fb7019cfcb4 = $(`<div id="html_2a3a6ae3b44e4fb3b9ec7fb7019cfcb4" style="width: 100.0%; height: 100.0%;">['location :HarrisburgScranton<br>Avg_Total:123694.85<br>Avg_Plu1:22235.27<br>Avg_Plu2:61212.25<br>Avg_Plu3:219.94<br>Avg_bags_t:40027.38<br>Avg_bags_s:37789.56<br>Avg_bags_t:1780.37<br>Avg_bags_lx:457.45']</div>`)[0];
+            popup_468603e4081c4dce8080868d332dc949.setContent(html_2a3a6ae3b44e4fb3b9ec7fb7019cfcb4);
+        
+
+        marker_c8ee380156b84f4b99e7a168e7c85619.bindPopup(popup_468603e4081c4dce8080868d332dc949)
+        ;
+
+        
+    
+    
+            marker_c8ee380156b84f4b99e7a168e7c85619.bindTooltip(
+                `<div>
+                     Bags_T<br>A=12127974.37<br>C=1401279.76<br>Total=13529254.129999999
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb6b2212e01e459aa3349eef0d69f918 = L.marker(
+                [41.9413995, -72.6996932],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_93754cbdd5f2448c8d0b9a949ceb4b7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fb6b2212e01e459aa3349eef0d69f918.setIcon(icon_93754cbdd5f2448c8d0b9a949ceb4b7f);
+        
+    
+        var popup_68b9b2db76d8479e9b588a8b49ed3c26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_745bc84a92484fedb900a5c86a531f2e = $(`<div id="html_745bc84a92484fedb900a5c86a531f2e" style="width: 100.0%; height: 100.0%;">['location :HartfordSpringfield<br>Avg_Total:149912.83<br>Avg_Plu1:3904.3<br>Avg_Plu2:111975.2<br>Avg_Plu3:503.71<br>Avg_bags_t:33529.62<br>Avg_bags_s:31889.23<br>Avg_bags_t:1410.79<br>Avg_bags_lx:229.59']</div>`)[0];
+            popup_68b9b2db76d8479e9b588a8b49ed3c26.setContent(html_745bc84a92484fedb900a5c86a531f2e);
+        
+
+        marker_fb6b2212e01e459aa3349eef0d69f918.bindPopup(popup_68b9b2db76d8479e9b588a8b49ed3c26)
+        ;
+
+        
+    
+    
+            marker_fb6b2212e01e459aa3349eef0d69f918.bindTooltip(
+                `<div>
+                     Bags_T<br>A=10543922.98<br>C=789089.65<br>Total=11333012.63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71279188eca14ad8b0372d26a3a53d69 = L.marker(
+                [29.7604267, -95.3698028],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_e747f20819d2465994a954610eed23f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_71279188eca14ad8b0372d26a3a53d69.setIcon(icon_e747f20819d2465994a954610eed23f6);
+        
+    
+        var popup_7b549bd811fb4dbfaac3a5f51200d43f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6e4d72abed940f983fd6e9412f27a18 = $(`<div id="html_c6e4d72abed940f983fd6e9412f27a18" style="width: 100.0%; height: 100.0%;">['location :Houston<br>Avg_Total:601088.37<br>Avg_Plu1:295186.09<br>Avg_Plu2:141196.55<br>Avg_Plu3:16140.45<br>Avg_bags_t:148565.28<br>Avg_bags_s:96228.31<br>Avg_bags_t:51372.08<br>Avg_bags_lx:964.89']</div>`)[0];
+            popup_7b549bd811fb4dbfaac3a5f51200d43f.setContent(html_c6e4d72abed940f983fd6e9412f27a18);
+        
+
+        marker_71279188eca14ad8b0372d26a3a53d69.bindPopup(popup_7b549bd811fb4dbfaac3a5f51200d43f)
+        ;
+
+        
+    
+    
+            marker_71279188eca14ad8b0372d26a3a53d69.bindTooltip(
+                `<div>
+                     Bags_T<br>A=47852447.21<br>C=2362616.81<br>Total=50215064.02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db21f95a540c48c398551a1d67088815 = L.marker(
+                [39.768403, -86.158068],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_e52d0007cce347ebbb1b37a97a00e8b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_db21f95a540c48c398551a1d67088815.setIcon(icon_e52d0007cce347ebbb1b37a97a00e8b9);
+        
+    
+        var popup_2c9cfe6cecdb4ebbb2326b232053545a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5ae05083f04cad83b36796946adea1 = $(`<div id="html_5a5ae05083f04cad83b36796946adea1" style="width: 100.0%; height: 100.0%;">['location :Indianapolis<br>Avg_Total:89536.66<br>Avg_Plu1:7176.07<br>Avg_Plu2:42792.41<br>Avg_Plu3:4115.86<br>Avg_bags_t:35446.18<br>Avg_bags_s:19559.36<br>Avg_bags_t:15048.1<br>Avg_bags_lx:838.73']</div>`)[0];
+            popup_2c9cfe6cecdb4ebbb2326b232053545a.setContent(html_5a5ae05083f04cad83b36796946adea1);
+        
+
+        marker_db21f95a540c48c398551a1d67088815.bindPopup(popup_2c9cfe6cecdb4ebbb2326b232053545a)
+        ;
+
+        
+    
+    
+            marker_db21f95a540c48c398551a1d67088815.bindTooltip(
+                `<div>
+                     Bags_T<br>A=11431236.04<br>C=549573.98<br>Total=11980810.02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b17becceb814574aea1547f7de72216 = L.marker(
+                [30.3321838, -81.65565099999999],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_829b7c6f72d6417cacbe9fae8e6b37d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3b17becceb814574aea1547f7de72216.setIcon(icon_829b7c6f72d6417cacbe9fae8e6b37d9);
+        
+    
+        var popup_e122baff47cd4c9386d6b0e99a795012 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aaed90eb1804220b77c50658520dbef = $(`<div id="html_2aaed90eb1804220b77c50658520dbef" style="width: 100.0%; height: 100.0%;">['location :Jacksonville<br>Avg_Total:85177.53<br>Avg_Plu1:45774.29<br>Avg_Plu2:10434.14<br>Avg_Plu3:217.24<br>Avg_bags_t:28751.86<br>Avg_bags_s:12839.61<br>Avg_bags_t:15600.6<br>Avg_bags_lx:311.64']</div>`)[0];
+            popup_e122baff47cd4c9386d6b0e99a795012.setContent(html_2aaed90eb1804220b77c50658520dbef);
+        
+
+        marker_3b17becceb814574aea1547f7de72216.bindPopup(popup_e122baff47cd4c9386d6b0e99a795012)
+        ;
+
+        
+    
+    
+            marker_3b17becceb814574aea1547f7de72216.bindTooltip(
+                `<div>
+                     Bags_T<br>A=9421675.35<br>C=296452.14<br>Total=9718127.49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f47664ce2554f94bcb7117145a727c7 = L.marker(
+                [36.1699412, -115.1398296],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_64cf2bd7e9bc417092f1f4f1afa4273d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3f47664ce2554f94bcb7117145a727c7.setIcon(icon_64cf2bd7e9bc417092f1f4f1afa4273d);
+        
+    
+        var popup_06b65ff21a33440e84fc0ec25355ddd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6f0c90d3f05476bb95aa7358a566658 = $(`<div id="html_e6f0c90d3f05476bb95aa7358a566658" style="width: 100.0%; height: 100.0%;">['location :LasVegas<br>Avg_Total:160878.42<br>Avg_Plu1:58541.81<br>Avg_Plu2:45456.88<br>Avg_Plu3:3468.51<br>Avg_bags_t:53411.22<br>Avg_bags_s:26561.02<br>Avg_bags_t:26802.71<br>Avg_bags_lx:47.5']</div>`)[0];
+            popup_06b65ff21a33440e84fc0ec25355ddd6.setContent(html_e6f0c90d3f05476bb95aa7358a566658);
+        
+
+        marker_3f47664ce2554f94bcb7117145a727c7.bindPopup(popup_06b65ff21a33440e84fc0ec25355ddd6)
+        ;
+
+        
+    
+    
+            marker_3f47664ce2554f94bcb7117145a727c7.bindTooltip(
+                `<div>
+                     Bags_T<br>A=17442460.5<br>C=610532.91<br>Total=18052993.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88fbfc6c6a4240a79c2323e1ce994d75 = L.marker(
+                [34.0522342, -118.2436849],
+                {"iconColor": "red"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_4ac5cf7b120e4ca293d5f6d6ad8d3c3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88fbfc6c6a4240a79c2323e1ce994d75.setIcon(icon_4ac5cf7b120e4ca293d5f6d6ad8d3c3a);
+        
+    
+        var popup_200eeb4ad24643538a3106eacd548203 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a5c94732efb4cd2ab192677973b9993 = $(`<div id="html_6a5c94732efb4cd2ab192677973b9993" style="width: 100.0%; height: 100.0%;">['location :LosAngeles<br>Avg_Total:1502652.51<br>Avg_Plu1:662364.98<br>Avg_Plu2:302171.48<br>Avg_Plu3:40292.0<br>Avg_bags_t:497824.05<br>Avg_bags_s:460728.12<br>Avg_bags_t:25038.89<br>Avg_bags_lx:12057.04']</div>`)[0];
+            popup_200eeb4ad24643538a3106eacd548203.setContent(html_6a5c94732efb4cd2ab192677973b9993);
+        
+
+        marker_88fbfc6c6a4240a79c2323e1ce994d75.bindPopup(popup_200eeb4ad24643538a3106eacd548203)
+        ;
+
+        
+    
+    
+            marker_88fbfc6c6a4240a79c2323e1ce994d75.bindTooltip(
+                `<div>
+                     Bags_T<br>A=161200857.16<br>C=7063671.27<br>Total=168264528.43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cb68db532754affbe51bb4675054e7f = L.marker(
+                [38.2526647, -85.7584557],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_5b3951283bc44d8fa420f1dcdf4c1558 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2cb68db532754affbe51bb4675054e7f.setIcon(icon_5b3951283bc44d8fa420f1dcdf4c1558);
+        
+    
+        var popup_bbcb065e84d6453a8f90d0edf5635af5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c4b180a9369467a941a98f09c375743 = $(`<div id="html_7c4b180a9369467a941a98f09c375743" style="width: 100.0%; height: 100.0%;">['location :Louisville<br>Avg_Total:47624.27<br>Avg_Plu1:2099.26<br>Avg_Plu2:24889.55<br>Avg_Plu3:1004.43<br>Avg_bags_t:19631.03<br>Avg_bags_s:8326.16<br>Avg_bags_t:10985.58<br>Avg_bags_lx:319.3']</div>`)[0];
+            popup_bbcb065e84d6453a8f90d0edf5635af5.setContent(html_7c4b180a9369467a941a98f09c375743);
+        
+
+        marker_2cb68db532754affbe51bb4675054e7f.bindPopup(popup_bbcb065e84d6453a8f90d0edf5635af5)
+        ;
+
+        
+    
+    
+            marker_2cb68db532754affbe51bb4675054e7f.bindTooltip(
+                `<div>
+                     Bags_T<br>A=6352617.85<br>C=282670.93<br>Total=6635288.779999999
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6792077a5854c50af70e959918aa982 = L.marker(
+                [26.1235238, -80.1462818],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_26a13e2bc25d4479953703955a536faa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_c6792077a5854c50af70e959918aa982.setIcon(icon_26a13e2bc25d4479953703955a536faa);
+        
+    
+        var popup_75207ef8c86f486380f227df2e700205 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87e84858556347f7aac5523b6647bd84 = $(`<div id="html_87e84858556347f7aac5523b6647bd84" style="width: 100.0%; height: 100.0%;">['location :MiamiFtLauderdale<br>Avg_Total:288974.04<br>Avg_Plu1:174970.71<br>Avg_Plu2:44116.22<br>Avg_Plu3:311.84<br>Avg_bags_t:69575.27<br>Avg_bags_s:33195.19<br>Avg_bags_t:35475.77<br>Avg_bags_lx:904.31']</div>`)[0];
+            popup_75207ef8c86f486380f227df2e700205.setContent(html_87e84858556347f7aac5523b6647bd84);
+        
+
+        marker_c6792077a5854c50af70e959918aa982.bindPopup(popup_75207ef8c86f486380f227df2e700205)
+        ;
+
+        
+    
+    
+            marker_c6792077a5854c50af70e959918aa982.bindTooltip(
+                `<div>
+                     Bags_T<br>A=22975122.54<br>C=541320.22<br>Total=23516442.759999998
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c52797f19088428fbcdb68dbdcc99e03 = L.marker(
+                [36.5270574, -87.22808909999999],
+                {"iconColor": "red"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_db848fe8aa144002bcb501697ed9c4af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c52797f19088428fbcdb68dbdcc99e03.setIcon(icon_db848fe8aa144002bcb501697ed9c4af);
+        
+    
+        var popup_a95b6f0c66b642df9b82c49a784b33d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2f4a5f69b7546338392f9a05bb387f2 = $(`<div id="html_c2f4a5f69b7546338392f9a05bb387f2" style="width: 100.0%; height: 100.0%;">['location :Midsouth<br>Avg_Total:1503992.18<br>Avg_Plu1:326717.85<br>Avg_Plu2:657908.49<br>Avg_Plu3:56307.57<br>Avg_bags_t:463058.07<br>Avg_bags_s:397527.94<br>Avg_bags_t:61452.27<br>Avg_bags_lx:4077.86']</div>`)[0];
+            popup_a95b6f0c66b642df9b82c49a784b33d3.setContent(html_c2f4a5f69b7546338392f9a05bb387f2);
+        
+
+        marker_c52797f19088428fbcdb68dbdcc99e03.bindPopup(popup_a95b6f0c66b642df9b82c49a784b33d3)
+        ;
+
+        
+    
+    
+            marker_c52797f19088428fbcdb68dbdcc99e03.bindTooltip(
+                `<div>
+                     Bags_T<br>A=146703709.87<br>C=9809916.95<br>Total=156513626.82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22ba2c4f73154e04819f9d3c8fb9ebc5 = L.marker(
+                [36.1626638, -86.7816016],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_3df8e3460ad44a9a843778237ba9e3a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_22ba2c4f73154e04819f9d3c8fb9ebc5.setIcon(icon_3df8e3460ad44a9a843778237ba9e3a9);
+        
+    
+        var popup_74d83241349a4aadbc6b14ec5263ab5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34036245e08147f289d7799a70b8ec0b = $(`<div id="html_34036245e08147f289d7799a70b8ec0b" style="width: 100.0%; height: 100.0%;">['location :Nashville<br>Avg_Total:105361.21<br>Avg_Plu1:53813.27<br>Avg_Plu2:11273.7<br>Avg_Plu3:1909.85<br>Avg_bags_t:38364.4<br>Avg_bags_s:29712.39<br>Avg_bags_t:8322.17<br>Avg_bags_lx:329.84']</div>`)[0];
+            popup_74d83241349a4aadbc6b14ec5263ab5f.setContent(html_34036245e08147f289d7799a70b8ec0b);
+        
+
+        marker_22ba2c4f73154e04819f9d3c8fb9ebc5.bindPopup(popup_74d83241349a4aadbc6b14ec5263ab5f)
+        ;
+
+        
+    
+    
+            marker_22ba2c4f73154e04819f9d3c8fb9ebc5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=12261186.14<br>C=705980.27<br>Total=12967166.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb22faa40781476e8ee7fa617f2854a4 = L.marker(
+                [29.942386, -90.09374],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_f6daa7427c854be681039e886248d305 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bb22faa40781476e8ee7fa617f2854a4.setIcon(icon_f6daa7427c854be681039e886248d305);
+        
+    
+        var popup_dff0561dfb0d4f17b8950c3f62903490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_530072cfb99c481281dc7ae2ff7ab532 = $(`<div id="html_530072cfb99c481281dc7ae2ff7ab532" style="width: 100.0%; height: 100.0%;">['location :NewOrleansMobile<br>Avg_Total:135192.71<br>Avg_Plu1:79303.96<br>Avg_Plu2:13056.86<br>Avg_Plu3:616.09<br>Avg_bags_t:42215.8<br>Avg_bags_s:35087.44<br>Avg_bags_t:5611.54<br>Avg_bags_lx:1516.83']</div>`)[0];
+            popup_dff0561dfb0d4f17b8950c3f62903490.setContent(html_530072cfb99c481281dc7ae2ff7ab532);
+        
+
+        marker_bb22faa40781476e8ee7fa617f2854a4.bindPopup(popup_dff0561dfb0d4f17b8950c3f62903490)
+        ;
+
+        
+    
+    
+            marker_bb22faa40781476e8ee7fa617f2854a4.bindTooltip(
+                `<div>
+                     Bags_T<br>A=13709287.17<br>C=559653.34<br>Total=14268940.51
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_204f748ae61540c6aee15216244527f4 = L.marker(
+                [40.7127753, -74.0059728],
+                {"iconColor": "purple"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_60b09dca49474981a41b3fc895ed905b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_204f748ae61540c6aee15216244527f4.setIcon(icon_60b09dca49474981a41b3fc895ed905b);
+        
+    
+        var popup_175546738e1b49b19915891da529c0a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bdf093ca0254ec685e8f5f54a51caf6 = $(`<div id="html_5bdf093ca0254ec685e8f5f54a51caf6" style="width: 100.0%; height: 100.0%;">['location :NewYork<br>Avg_Total:712231.15<br>Avg_Plu1:22601.56<br>Avg_Plu2:483295.39<br>Avg_Plu3:5168.05<br>Avg_bags_t:201166.14<br>Avg_bags_s:172786.04<br>Avg_bags_t:27316.56<br>Avg_bags_lx:1063.54']</div>`)[0];
+            popup_175546738e1b49b19915891da529c0a6.setContent(html_5bdf093ca0254ec685e8f5f54a51caf6);
+        
+
+        marker_204f748ae61540c6aee15216244527f4.bindPopup(popup_175546738e1b49b19915891da529c0a6)
+        ;
+
+        
+    
+    
+            marker_204f748ae61540c6aee15216244527f4.bindTooltip(
+                `<div>
+                     Bags_T<br>A=64289052.84<br>C=3705103.92<br>Total=67994156.76
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0b3fff8e7e04d38bfb64f9c387eb66c = L.marker(
+                [43.2994285, -74.21793260000001],
+                {"iconColor": "red"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_e85168a447c84cd684247bc68fc8f60a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e0b3fff8e7e04d38bfb64f9c387eb66c.setIcon(icon_e85168a447c84cd684247bc68fc8f60a);
+        
+    
+        var popup_cdcfe907701b42e5822767ce221c9207 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab9af045f989470a98085eb30addd72e = $(`<div id="html_ab9af045f989470a98085eb30addd72e" style="width: 100.0%; height: 100.0%;">['location :Northeast<br>Avg_Total:2110298.55<br>Avg_Plu1:103524.28<br>Avg_Plu2:1403800.78<br>Avg_Plu3:20167.59<br>Avg_bags_t:582805.9<br>Avg_bags_s:513677.44<br>Avg_bags_t:65254.6<br>Avg_bags_lx:3873.87']</div>`)[0];
+            popup_cdcfe907701b42e5822767ce221c9207.setContent(html_ab9af045f989470a98085eb30addd72e);
+        
+
+        marker_e0b3fff8e7e04d38bfb64f9c387eb66c.bindPopup(popup_cdcfe907701b42e5822767ce221c9207)
+        ;
+
+        
+    
+    
+            marker_e0b3fff8e7e04d38bfb64f9c387eb66c.bindTooltip(
+                `<div>
+                     Bags_T<br>A=180913888.73<br>C=16074504.87<br>Total=196988393.6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f580833e0add4b2a980f1efd19d97260 = L.marker(
+                [43.9653889, -70.8226541],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_61c12748fce84fed85bf2580ea4f8295 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_f580833e0add4b2a980f1efd19d97260.setIcon(icon_61c12748fce84fed85bf2580ea4f8295);
+        
+    
+        var popup_4242a01e5b524e1192b66497813f2183 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0ad6cedd4eb4652840b81d0ee1b0b2f = $(`<div id="html_a0ad6cedd4eb4652840b81d0ee1b0b2f" style="width: 100.0%; height: 100.0%;">['location :NorthernNewEngland<br>Avg_Total:211635.78<br>Avg_Plu1:7997.72<br>Avg_Plu2:158607.25<br>Avg_Plu3:3891.68<br>Avg_bags_t:41139.13<br>Avg_bags_s:33363.82<br>Avg_bags_t:7447.95<br>Avg_bags_lx:327.37']</div>`)[0];
+            popup_4242a01e5b524e1192b66497813f2183.setContent(html_a0ad6cedd4eb4652840b81d0ee1b0b2f);
+        
+
+        marker_f580833e0add4b2a980f1efd19d97260.bindPopup(popup_4242a01e5b524e1192b66497813f2183)
+        ;
+
+        
+    
+    
+            marker_f580833e0add4b2a980f1efd19d97260.bindTooltip(
+                `<div>
+                     Bags_T<br>A=11777103.19<br>C=2127924.21<br>Total=13905027.399999999
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6171e4dc1e8e4b168d9475a79583f5c0 = L.marker(
+                [28.5383355, -81.3792365],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_2c75875181cb42fcb411bf60893ce61c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6171e4dc1e8e4b168d9475a79583f5c0.setIcon(icon_2c75875181cb42fcb411bf60893ce61c);
+        
+    
+        var popup_32a22a4929924b63834b61dfc2cfa332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c4f284389344a8aea577030a8a0d12 = $(`<div id="html_b4c4f284389344a8aea577030a8a0d12" style="width: 100.0%; height: 100.0%;">['location :Orlando<br>Avg_Total:173552.38<br>Avg_Plu1:98789.66<br>Avg_Plu2:24732.53<br>Avg_Plu3:143.68<br>Avg_bags_t:49886.51<br>Avg_bags_s:26413.84<br>Avg_bags_t:22753.0<br>Avg_bags_lx:719.67']</div>`)[0];
+            popup_32a22a4929924b63834b61dfc2cfa332.setContent(html_b4c4f284389344a8aea577030a8a0d12);
+        
+
+        marker_6171e4dc1e8e4b168d9475a79583f5c0.bindPopup(popup_32a22a4929924b63834b61dfc2cfa332)
+        ;
+
+        
+    
+    
+            marker_6171e4dc1e8e4b168d9475a79583f5c0.bindTooltip(
+                `<div>
+                     Bags_T<br>A=16302939.02<br>C=558701.66<br>Total=16861640.68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c63b486f60f47a0a27f7d873678d5ce = L.marker(
+                [39.9525839, -75.1652215],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_367c213fbd9049769f138e97e84e032c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_2c63b486f60f47a0a27f7d873678d5ce.setIcon(icon_367c213fbd9049769f138e97e84e032c);
+        
+    
+        var popup_32d6f3559a8a475cbab2a5bb67675c9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7679cc51eb3a46afa6794ba50e4b16b6 = $(`<div id="html_7679cc51eb3a46afa6794ba50e4b16b6" style="width: 100.0%; height: 100.0%;">['location :Philadelphia<br>Avg_Total:212540.82<br>Avg_Plu1:13654.44<br>Avg_Plu2:126474.66<br>Avg_Plu3:1774.94<br>Avg_bags_t:70636.78<br>Avg_bags_s:63363.98<br>Avg_bags_t:6958.74<br>Avg_bags_lx:314.06']</div>`)[0];
+            popup_32d6f3559a8a475cbab2a5bb67675c9e.setContent(html_7679cc51eb3a46afa6794ba50e4b16b6);
+        
+
+        marker_2c63b486f60f47a0a27f7d873678d5ce.bindPopup(popup_32d6f3559a8a475cbab2a5bb67675c9e)
+        ;
+
+        
+    
+    
+            marker_2c63b486f60f47a0a27f7d873678d5ce.bindTooltip(
+                `<div>
+                     Bags_T<br>A=22500153.37<br>C=1375078.88<br>Total=23875232.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbc5e92abe7d44e79f458d27769bb9a6 = L.marker(
+                [32.1694265, -110.8754987],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_2cbaa9f66d5c4ae6a3683afc63867772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_dbc5e92abe7d44e79f458d27769bb9a6.setIcon(icon_2cbaa9f66d5c4ae6a3683afc63867772);
+        
+    
+        var popup_733a8dd00701460c8a259b2c4422cdf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92b623c8ae0e430d80c79c441a52dd5c = $(`<div id="html_92b623c8ae0e430d80c79c441a52dd5c" style="width: 100.0%; height: 100.0%;">['location :PhoenixTucson<br>Avg_Total:578826.37<br>Avg_Plu1:341502.1<br>Avg_Plu2:115852.03<br>Avg_Plu3:6359.11<br>Avg_bags_t:115113.13<br>Avg_bags_s:65895.35<br>Avg_bags_t:48759.47<br>Avg_bags_lx:458.31']</div>`)[0];
+            popup_733a8dd00701460c8a259b2c4422cdf4.setContent(html_92b623c8ae0e430d80c79c441a52dd5c);
+        
+
+        marker_dbc5e92abe7d44e79f458d27769bb9a6.bindPopup(popup_733a8dd00701460c8a259b2c4422cdf4)
+        ;
+
+        
+    
+    
+            marker_dbc5e92abe7d44e79f458d27769bb9a6.bindTooltip(
+                `<div>
+                     Bags_T<br>A=38248854.0<br>C=659382.3<br>Total=38908236.3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20bb0ac3e2f04b22807814d5de85d750 = L.marker(
+                [40.44062479999999, -79.9958864],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_3206ba9d4b5a4c9ba9c41560a7ef9bcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_20bb0ac3e2f04b22807814d5de85d750.setIcon(icon_3206ba9d4b5a4c9ba9c41560a7ef9bcb);
+        
+    
+        var popup_c450f8171bcd4d2fb452178148b4e685 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b294795366146959c6dbe5d653eadd8 = $(`<div id="html_6b294795366146959c6dbe5d653eadd8" style="width: 100.0%; height: 100.0%;">['location :Pittsburgh<br>Avg_Total:55640.08<br>Avg_Plu1:11752.77<br>Avg_Plu2:21602.02<br>Avg_Plu3:849.01<br>Avg_bags_t:21436.28<br>Avg_bags_s:16000.53<br>Avg_bags_t:5265.38<br>Avg_bags_lx:170.37']</div>`)[0];
+            popup_c450f8171bcd4d2fb452178148b4e685.setContent(html_6b294795366146959c6dbe5d653eadd8);
+        
+
+        marker_20bb0ac3e2f04b22807814d5de85d750.bindPopup(popup_c450f8171bcd4d2fb452178148b4e685)
+        ;
+
+        
+    
+    
+            marker_20bb0ac3e2f04b22807814d5de85d750.bindTooltip(
+                `<div>
+                     Bags_T<br>A=6408089.45<br>C=837372.98<br>Total=7245462.43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8855a821620f450cbb7ebb0c6227382c = L.marker(
+                [45.5051064, -122.6750261],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_9ff4521cd519459da78c32b431d4e0f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8855a821620f450cbb7ebb0c6227382c.setIcon(icon_9ff4521cd519459da78c32b431d4e0f2);
+        
+    
+        var popup_2c42f5350ca541c6bfcfa71cb8508938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c51288af3bb4186acae545125f9c983 = $(`<div id="html_4c51288af3bb4186acae545125f9c983" style="width: 100.0%; height: 100.0%;">['location :Portland<br>Avg_Total:327077.55<br>Avg_Plu1:68662.5<br>Avg_Plu2:103507.87<br>Avg_Plu3:8444.57<br>Avg_bags_t:146462.6<br>Avg_bags_s:122806.57<br>Avg_bags_t:23425.22<br>Avg_bags_lx:230.8']</div>`)[0];
+            popup_2c42f5350ca541c6bfcfa71cb8508938.setContent(html_4c51288af3bb4186acae545125f9c983);
+        
+
+        marker_8855a821620f450cbb7ebb0c6227382c.bindPopup(popup_2c42f5350ca541c6bfcfa71cb8508938)
+        ;
+
+        
+    
+    
+            marker_8855a821620f450cbb7ebb0c6227382c.bindTooltip(
+                `<div>
+                     Bags_T<br>A=46701410.27<br>C=2802949.2<br>Total=49504359.470000006
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64c25288e34545a4b05bc8c7966340c5 = L.marker(
+                [35.7795897, -78.6381787],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_00d7f922154b46e7ac4f833863599942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_64c25288e34545a4b05bc8c7966340c5.setIcon(icon_00d7f922154b46e7ac4f833863599942);
+        
+    
+        var popup_895bd91e50e043d78faf00f76fb9b6fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_940f9ece9baa4b28aabf483e6a0e9b37 = $(`<div id="html_940f9ece9baa4b28aabf483e6a0e9b37" style="width: 100.0%; height: 100.0%;">['location :RaleighGreensboro<br>Avg_Total:142611.63<br>Avg_Plu1:34972.82<br>Avg_Plu2:49343.56<br>Avg_Plu3:11914.54<br>Avg_bags_t:46380.7<br>Avg_bags_s:44498.47<br>Avg_bags_t:1601.02<br>Avg_bags_lx:281.21']</div>`)[0];
+            popup_895bd91e50e043d78faf00f76fb9b6fb.setContent(html_940f9ece9baa4b28aabf483e6a0e9b37);
+        
+
+        marker_64c25288e34545a4b05bc8c7966340c5.bindPopup(popup_895bd91e50e043d78faf00f76fb9b6fb)
+        ;
+
+        
+    
+    
+            marker_64c25288e34545a4b05bc8c7966340c5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=14895362.99<br>C=781314.5<br>Total=15676677.49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16e30cdacb4341e4ac0efd444a4d0667 = L.marker(
+                [37.5407246, -77.4360481],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_843fa589b47f41268d44299aa10c046f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_16e30cdacb4341e4ac0efd444a4d0667.setIcon(icon_843fa589b47f41268d44299aa10c046f);
+        
+    
+        var popup_0d50e626775f47e695648049cb39b7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3e990ea153549b498cb33f1685ba963 = $(`<div id="html_f3e990ea153549b498cb33f1685ba963" style="width: 100.0%; height: 100.0%;">['location :RichmondNorfolk<br>Avg_Total:124943.35<br>Avg_Plu1:36913.76<br>Avg_Plu2:47563.19<br>Avg_Plu3:3459.8<br>Avg_bags_t:37006.59<br>Avg_bags_s:34486.7<br>Avg_bags_t:2153.67<br>Avg_bags_lx:366.22']</div>`)[0];
+            popup_0d50e626775f47e695648049cb39b7f6.setContent(html_f3e990ea153549b498cb33f1685ba963);
+        
+
+        marker_16e30cdacb4341e4ac0efd444a4d0667.bindPopup(popup_0d50e626775f47e695648049cb39b7f6)
+        ;
+
+        
+    
+    
+            marker_16e30cdacb4341e4ac0efd444a4d0667.bindTooltip(
+                `<div>
+                     Bags_T<br>A=11640363.01<br>C=867865.77<br>Total=12508228.78
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b7c44dd5ecf42a6874fa5f1016f65fe = L.marker(
+                [37.2709704, -79.9414266],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_5d1a3eb59e15458bbb8355a3b78d32be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6b7c44dd5ecf42a6874fa5f1016f65fe.setIcon(icon_5d1a3eb59e15458bbb8355a3b78d32be);
+        
+    
+        var popup_7d5be2cbd3014b3fad9ed8ca47669600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9be09e4a6054a21a1fa949e11e2131b = $(`<div id="html_f9be09e4a6054a21a1fa949e11e2131b" style="width: 100.0%; height: 100.0%;">['location :Roanoke<br>Avg_Total:74088.79<br>Avg_Plu1:22050.14<br>Avg_Plu2:23584.43<br>Avg_Plu3:78.5<br>Avg_bags_t:28375.7<br>Avg_bags_s:25018.76<br>Avg_bags_t:3121.79<br>Avg_bags_lx:235.16']</div>`)[0];
+            popup_7d5be2cbd3014b3fad9ed8ca47669600.setContent(html_f9be09e4a6054a21a1fa949e11e2131b);
+        
+
+        marker_6b7c44dd5ecf42a6874fa5f1016f65fe.bindPopup(popup_7d5be2cbd3014b3fad9ed8ca47669600)
+        ;
+
+        
+    
+    
+            marker_6b7c44dd5ecf42a6874fa5f1016f65fe.bindTooltip(
+                `<div>
+                     Bags_T<br>A=8834394.88<br>C=756592.82<br>Total=9590987.700000001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_558b626c7e7d4ecc9c654c19100675f7 = L.marker(
+                [38.5815719, -121.4943996],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_c859a724a01b4376b83fe288f2b29d6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_558b626c7e7d4ecc9c654c19100675f7.setIcon(icon_c859a724a01b4376b83fe288f2b29d6a);
+        
+    
+        var popup_deeed963b9e94c7284f1db42c3d6dc64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2412f7b7b984a609f844507b74e0709 = $(`<div id="html_f2412f7b7b984a609f844507b74e0709" style="width: 100.0%; height: 100.0%;">['location :Sacramento<br>Avg_Total:222377.95<br>Avg_Plu1:69382.85<br>Avg_Plu2:121825.19<br>Avg_Plu3:4595.15<br>Avg_bags_t:26574.76<br>Avg_bags_s:25730.3<br>Avg_bags_t:226.97<br>Avg_bags_lx:617.49']</div>`)[0];
+            popup_deeed963b9e94c7284f1db42c3d6dc64.setContent(html_f2412f7b7b984a609f844507b74e0709);
+        
+
+        marker_558b626c7e7d4ecc9c654c19100675f7.bindPopup(popup_deeed963b9e94c7284f1db42c3d6dc64)
+        ;
+
+        
+    
+    
+            marker_558b626c7e7d4ecc9c654c19100675f7.bindTooltip(
+                `<div>
+                     Bags_T<br>A=8838108.69<br>C=144159.43<br>Total=8982268.12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64ad590ae27342329638f1570e2093b5 = L.marker(
+                [32.715738, -117.1610838],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_831e13315f2e4198a755c0874d6ccac8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_64ad590ae27342329638f1570e2093b5.setIcon(icon_831e13315f2e4198a755c0874d6ccac8);
+        
+    
+        var popup_37b5023f917d477e8397462a576de0f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09620b2ca2844a2da2dba54eb50af3c2 = $(`<div id="html_09620b2ca2844a2da2dba54eb50af3c2" style="width: 100.0%; height: 100.0%;">['location :SanDiego<br>Avg_Total:265656.57<br>Avg_Plu1:100836.29<br>Avg_Plu2:86563.5<br>Avg_Plu3:9195.63<br>Avg_bags_t:69061.15<br>Avg_bags_s:59987.54<br>Avg_bags_t:8644.45<br>Avg_bags_lx:429.16']</div>`)[0];
+            popup_37b5023f917d477e8397462a576de0f0.setContent(html_09620b2ca2844a2da2dba54eb50af3c2);
+        
+
+        marker_64ad590ae27342329638f1570e2093b5.bindPopup(popup_37b5023f917d477e8397462a576de0f0)
+        ;
+
+        
+    
+    
+            marker_64ad590ae27342329638f1570e2093b5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=22708349.21<br>C=634319.31<br>Total=23342668.52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73f78376888c47da93eda3c192771c92 = L.marker(
+                [37.7749295, -122.4194155],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_9e4e5fb767b04d52a63f0c7967963d93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_73f78376888c47da93eda3c192771c92.setIcon(icon_9e4e5fb767b04d52a63f0c7967963d93);
+        
+    
+        var popup_4ffd6fe224ed407090cdb3169c33b1e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3da88392a4bb429f9440d3ad0476a245 = $(`<div id="html_3da88392a4bb429f9440d3ad0476a245" style="width: 100.0%; height: 100.0%;">['location :SanFrancisco<br>Avg_Total:401864.47<br>Avg_Plu1:100996.72<br>Avg_Plu2:246014.97<br>Avg_Plu3:10796.79<br>Avg_bags_t:44055.99<br>Avg_bags_s:42906.36<br>Avg_bags_t:523.49<br>Avg_bags_lx:626.14']</div>`)[0];
+            popup_4ffd6fe224ed407090cdb3169c33b1e4.setContent(html_3da88392a4bb429f9440d3ad0476a245);
+        
+
+        marker_73f78376888c47da93eda3c192771c92.bindPopup(popup_4ffd6fe224ed407090cdb3169c33b1e4)
+        ;
+
+        
+    
+    
+            marker_73f78376888c47da93eda3c192771c92.bindTooltip(
+                `<div>
+                     Bags_T<br>A=14590475.45<br>C=300449.52<br>Total=14890924.969999999
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ab3c16c887f463d922f7614377395e2 = L.marker(
+                [47.6062095, -122.3320708],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_c6b9c7f1c2d24a08b048d321b5df17cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8ab3c16c887f463d922f7614377395e2.setIcon(icon_c6b9c7f1c2d24a08b048d321b5df17cc);
+        
+    
+        var popup_b5f606f224d74e7aafd6360990b7bf77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a26f5e796ec4aa1a4b6fec6fdae0192 = $(`<div id="html_1a26f5e796ec4aa1a4b6fec6fdae0192" style="width: 100.0%; height: 100.0%;">['location :Seattle<br>Avg_Total:323118.87<br>Avg_Plu1:63510.81<br>Avg_Plu2:106629.53<br>Avg_Plu3:3003.98<br>Avg_bags_t:149974.55<br>Avg_bags_s:125583.26<br>Avg_bags_t:24189.19<br>Avg_bags_lx:202.1']</div>`)[0];
+            popup_b5f606f224d74e7aafd6360990b7bf77.setContent(html_1a26f5e796ec4aa1a4b6fec6fdae0192);
+        
+
+        marker_8ab3c16c887f463d922f7614377395e2.bindPopup(popup_b5f606f224d74e7aafd6360990b7bf77)
+        ;
+
+        
+    
+    
+            marker_8ab3c16c887f463d922f7614377395e2.bindTooltip(
+                `<div>
+                     Bags_T<br>A=47047229.37<br>C=3644169.36<br>Total=50691398.73
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbe9e32b6d674f2eb6e009a571a3065d = L.marker(
+                [33.836081, -81.1637245],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_0048ad10deba4aec9313aafe2bfa3aee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_bbe9e32b6d674f2eb6e009a571a3065d.setIcon(icon_0048ad10deba4aec9313aafe2bfa3aee);
+        
+    
+        var popup_0487d4c9b1ea455f9fc36ded2d3723a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_013a376984c847a0912df5c54e2610d4 = $(`<div id="html_013a376984c847a0912df5c54e2610d4" style="width: 100.0%; height: 100.0%;">['location :SouthCarolina<br>Avg_Total:179744.89<br>Avg_Plu1:84054.32<br>Avg_Plu2:37372.38<br>Avg_Plu3:4610.57<br>Avg_bags_t:53707.61<br>Avg_bags_s:39684.46<br>Avg_bags_t:13352.83<br>Avg_bags_lx:670.33']</div>`)[0];
+            popup_0487d4c9b1ea455f9fc36ded2d3723a2.setContent(html_013a376984c847a0912df5c54e2610d4);
+        
+
+        marker_bbe9e32b6d674f2eb6e009a571a3065d.bindPopup(popup_0487d4c9b1ea455f9fc36ded2d3723a2)
+        ;
+
+        
+    
+    
+            marker_bbe9e32b6d674f2eb6e009a571a3065d.bindTooltip(
+                `<div>
+                     Bags_T<br>A=17269493.21<br>C=883680.57<br>Total=18153173.78
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79e9805f2b6a43428915608a1b8c97cc = L.marker(
+                [47.6587802, -117.4260465],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_6bc6cdc4bb35407c842886258e52312c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_79e9805f2b6a43428915608a1b8c97cc.setIcon(icon_6bc6cdc4bb35407c842886258e52312c);
+        
+    
+        var popup_68c4079bedaf47fea922ee8d685479e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f4b60c8c8b440b86500a8001d5ac87 = $(`<div id="html_d4f4b60c8c8b440b86500a8001d5ac87" style="width: 100.0%; height: 100.0%;">['location :Spokane<br>Avg_Total:46051.11<br>Avg_Plu1:12142.22<br>Avg_Plu2:14575.77<br>Avg_Plu3:829.05<br>Avg_bags_t:18504.07<br>Avg_bags_s:15882.58<br>Avg_bags_t:2600.24<br>Avg_bags_lx:21.25']</div>`)[0];
+            popup_68c4079bedaf47fea922ee8d685479e7.setContent(html_d4f4b60c8c8b440b86500a8001d5ac87);
+        
+
+        marker_79e9805f2b6a43428915608a1b8c97cc.bindPopup(popup_68c4079bedaf47fea922ee8d685479e7)
+        ;
+
+        
+    
+    
+            marker_79e9805f2b6a43428915608a1b8c97cc.bindTooltip(
+                `<div>
+                     Bags_T<br>A=6012852.24<br>C=241523.63<br>Total=6254375.87
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f38a0f89c5d445ab0b6075a90f70fc5 = L.marker(
+                [38.6270025, -90.19940419999999],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_abbb978be9cc4953be76a9df22ac9065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5f38a0f89c5d445ab0b6075a90f70fc5.setIcon(icon_abbb978be9cc4953be76a9df22ac9065);
+        
+    
+        var popup_614105fc570f40e59d48de80f8286bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce9d29b6b48243a18cef81036e5c0bfc = $(`<div id="html_ce9d29b6b48243a18cef81036e5c0bfc" style="width: 100.0%; height: 100.0%;">['location :StLouis<br>Avg_Total:94890.04<br>Avg_Plu1:39972.94<br>Avg_Plu2:11241.01<br>Avg_Plu3:78.37<br>Avg_bags_t:43597.72<br>Avg_bags_s:35301.35<br>Avg_bags_t:7631.29<br>Avg_bags_lx:665.08']</div>`)[0];
+            popup_614105fc570f40e59d48de80f8286bc1.setContent(html_ce9d29b6b48243a18cef81036e5c0bfc);
+        
+
+        marker_5f38a0f89c5d445ab0b6075a90f70fc5.bindPopup(popup_614105fc570f40e59d48de80f8286bc1)
+        ;
+
+        
+    
+    
+            marker_5f38a0f89c5d445ab0b6075a90f70fc5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=14121077.58<br>C=614953.39<br>Total=14736030.97
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90859208b04343a5a9fb8b9980215167 = L.marker(
+                [43.0481221, -76.14742439999999],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_6a678e5e1bb3444eaba54fe0ada60f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_90859208b04343a5a9fb8b9980215167.setIcon(icon_6a678e5e1bb3444eaba54fe0ada60f02);
+        
+    
+        var popup_83a7feab79564e1ca44a79f7b074dc34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ed7f8db97241e48435bfda47b915ba = $(`<div id="html_a1ed7f8db97241e48435bfda47b915ba" style="width: 100.0%; height: 100.0%;">['location :Syracuse<br>Avg_Total:32374.76<br>Avg_Plu1:981.62<br>Avg_Plu2:18906.33<br>Avg_Plu3:83.17<br>Avg_bags_t:12403.63<br>Avg_bags_s:10785.95<br>Avg_bags_t:1494.13<br>Avg_bags_lx:123.56']</div>`)[0];
+            popup_83a7feab79564e1ca44a79f7b074dc34.setContent(html_a1ed7f8db97241e48435bfda47b915ba);
+        
+
+        marker_90859208b04343a5a9fb8b9980215167.bindPopup(popup_83a7feab79564e1ca44a79f7b074dc34)
+        ;
+
+        
+    
+    
+            marker_90859208b04343a5a9fb8b9980215167.bindTooltip(
+                `<div>
+                     Bags_T<br>A=3765589.12<br>C=426838.33<br>Total=4192427.45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae827b140af441fbb29eefadfb7873f5 = L.marker(
+                [27.950575, -82.4571776],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_09e4a4fd0bd14c6bbb36642dcdd2a6c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_ae827b140af441fbb29eefadfb7873f5.setIcon(icon_09e4a4fd0bd14c6bbb36642dcdd2a6c6);
+        
+    
+        var popup_5b1808c901424af2abba73a4fd87493f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d66db0608964d75a91cc4a259fa4c93 = $(`<div id="html_4d66db0608964d75a91cc4a259fa4c93" style="width: 100.0%; height: 100.0%;">['location :Tampa<br>Avg_Total:195279.7<br>Avg_Plu1:105762.58<br>Avg_Plu2:31719.25<br>Avg_Plu3:115.35<br>Avg_bags_t:57682.52<br>Avg_bags_s:31384.84<br>Avg_bags_t:25601.89<br>Avg_bags_lx:695.8']</div>`)[0];
+            popup_5b1808c901424af2abba73a4fd87493f.setContent(html_4d66db0608964d75a91cc4a259fa4c93);
+        
+
+        marker_ae827b140af441fbb29eefadfb7873f5.bindPopup(popup_5b1808c901424af2abba73a4fd87493f)
+        ;
+
+        
+    
+    
+            marker_ae827b140af441fbb29eefadfb7873f5.bindTooltip(
+                `<div>
+                     Bags_T<br>A=18929330.72<br>C=567361.19<br>Total=19496691.91
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07d84c66070349c5be12e5bb171c6a9f = L.marker(
+                [35.0843187, -106.6197812],
+                {"iconColor": "pink"}
+            ).addTo(map_2d31dd20451b4542bbab42fe53b10f27);
+        
+    
+            var icon_897fd564d59f444d871ae66d00fd2d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_07d84c66070349c5be12e5bb171c6a9f.setIcon(icon_897fd564d59f444d871ae66d00fd2d21);
+        
+    
+        var popup_37c503329cad4c62ad681e9278eb1ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_763ede8e0105467da20285e94d1ed5c1 = $(`<div id="html_763ede8e0105467da20285e94d1ed5c1" style="width: 100.0%; height: 100.0%;">['location :WestTexNewMexico<br>Avg_Total:431408.48<br>Avg_Plu1:250977.27<br>Avg_Plu2:66204.37<br>Avg_Plu3:8864.1<br>Avg_bags_t:105362.73<br>Avg_bags_s:59497.78<br>Avg_bags_t:44929.1<br>Avg_bags_lx:935.85']</div>`)[0];
+            popup_37c503329cad4c62ad681e9278eb1ed5.setContent(html_763ede8e0105467da20285e94d1ed5c1);
+        
+
+        marker_07d84c66070349c5be12e5bb171c6a9f.bindPopup(popup_37c503329cad4c62ad681e9278eb1ed5)
+        ;
+
+        
+    
+    
+            marker_07d84c66070349c5be12e5bb171c6a9f.bindTooltip(
+                `<div>
+                     Bags_T<br>A=34012576.37<br>C=1283939.16<br>Total=35296515.529999994
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
